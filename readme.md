@@ -51,45 +51,6 @@ Reader Thread → Processor Thread → Writer Thread
 
 ---
 
-## 📂 Project Structure
-packet_analyzer_java/
-│
-├── src/
-│ ├── app/
-│ │ └── Main.java
-│ │
-│ ├── engine/
-│ │ ├── DPIProcessor.java
-│ │ └── RuleManager.java
-│ │
-│ ├── model/
-│ │ ├── RawPacket.java
-│ │ ├── ParsedPacket.java
-│ │ ├── FiveTuple.java
-│ │ ├── Flow.java
-│ │ └── AppType.java
-│ │
-│ ├── parser/
-│ │ ├── PcapReader.java
-│ │ ├── PcapWriter.java
-│ │ └── PacketParser.java
-│ │
-│ └── pipeline/
-│ ├── ReaderThread.java
-│ ├── ProcessorThread.java
-│ └── WriterThread.java
-│
-├── input/
-│ └── test_dpi.pcap
-│
-├── output/
-│ └── output.pcap
-│
-└── README.md
-
-
----
-
 ## Features
 
 -  Multithreaded packet processing
@@ -117,6 +78,7 @@ This is a simplified approach. Real DPI systems use:
 - ML-based classification
 
 ---
+## How to run this project
 
 Go to project root:
 
